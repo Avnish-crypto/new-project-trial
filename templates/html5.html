@@ -1,0 +1,37 @@
+<html>
+<head>
+<title>guessfingers</title>
+</head>
+<body>
+<video height="400" id="00" controls>
+
+<source src="F:\video_Songs\1.mp4">
+
+</video>
+<button id="play">play</button>
+
+
+
+
+
+
+
+<script type="text/javascript">ṇ
+var x=0;
+document.getElementById("play").onclick=function(){
+if(x%2==0)
+{
+document.getElementById("00").play();
+this.innerHTML="pause";
+x++;
+}
+else{
+document.getElementById("00").pause();
+this.innerHTML="play";
+x++;
+}
+}
+
+</script>
+</body>
+</html> 
